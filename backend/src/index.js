@@ -20,7 +20,7 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chat-application-chi-tan.vercel.app/",
     credentials: true,
   })
 );
